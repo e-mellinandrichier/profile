@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&family=Space+Mono&family=VT323&display=swap');
+.name {
+  font-family: 'VT323', monospace;
+  font-size: 30px;
+  text-align: center;
+  color: aqua;
+}
+
+body{
+  background-image: url("images/ce7a32f20fccdd7af80f45fb49760b21.png");
+  background-size: cover;
+}
+
+}
+h2{
+  margin-left: 30em;
+  margin-right: 70em;
+  margin-bottom: 2em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+}
+img.superpose {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+}
+.trucs {
+  margin-left: 15em;
+  font-family: 'VT323';
+  color:aliceblue;
+  font-size: 40px;
+}
+#pp{
+  margin-top: 15em;
+}
+#media{
+  color: white;
+}
+#white-icon{
+  color:white
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
